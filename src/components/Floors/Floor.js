@@ -50,9 +50,9 @@ const Floor = () => {
     /* setItems(e.target.value);*/
   };
 
-  const addItem = (e, current) => {
+  const addItem = (e) => {
     e.preventDefault();
-    setState([...state, current]);
+    setState((prev) => [...prev, current]);
   };
 
   return (

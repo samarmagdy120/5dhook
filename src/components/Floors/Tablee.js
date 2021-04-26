@@ -19,7 +19,7 @@ const Tablee = ({ state }) => {
         <tbody>
           {state.map((item) => {
             return (
-              <tr key={item.id}>
+              <tr>
                 <td>{item.floorName}</td>
                 <td>{item.caseX}</td>
                 <td>{item.gender}</td>
